@@ -25,6 +25,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.DEPLOY_TOKEN }}
+          external_repository: LoongLeeX/LoongLeeX.github.io
           publish_dir: ./public
-          publish_branch: gh-pages
+          publish_branch: main
