@@ -1,0 +1,62 @@
+baseURL = "https://loongleex.github.io/Blog-Hugo-1/"
+title = "Mark's Blog"
+author = "Cuisiting"
+copyright = "Cuisiting"
+languageCode = "en"
+defaultContentLanguage = "en"
+enableInlineShortcodes = true
+# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
+ignoreErrors = ["error-remote-getjson"]
+theme = "tailwind"
+staticDir = ['static']
+
+[pagination]
+  pagerSize = 6
+
+[outputs]
+  home = ["HTML"]
+
+[mediaTypes]
+  [mediaTypes."text/plain"]
+    suffixes = ["CNAME"]
+
+[outputFormats.CNAME]
+  baseName = "CNAME"
+  isPlainText = true
+  mediaType = "text/plain"
+  permalinkable = false
+  rel = "canonical"
+  
+[markup]
+  _merge = "deep"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = true
+
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[privacy]
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.x]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[params.footer]
+  poweredby = false

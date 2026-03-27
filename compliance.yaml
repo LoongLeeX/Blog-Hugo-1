@@ -1,0 +1,37 @@
+implementation: hugo-tailwind
+spec_version: "1.0"
+framework: Hugo
+theme: tailwind (hugo-theme-tailwind)
+status: active
+source: 从 Blog-Hugo 迁移
+
+features:
+  dark-mode: full
+  navigation: full
+  search: none
+  comments: partial          # Giscus 支持已配置但未启用
+  i18n: partial              # 仅 en，部分文章有 .fr.md
+  analytics: none            # GA 占位但未配置
+  seo: partial               # 基础 meta tags
+  rss: full                  # Hugo 内置
+  toc: full                  # 全局启用
+
+pages:
+  home: full
+  post-list: full
+  post-detail: full
+  archives: full
+  tags: full
+  about: none
+
+components:
+  header: full
+  footer: full (customized)
+  post-card: full
+  pagination: full
+  code-block: full
+
+style:
+  typography: full (Tailwind defaults)
+  colors: full (theme defaults)
+  responsive: full
