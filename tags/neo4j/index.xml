@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Neo4j on Mark's Blog</title><link>https://loongleex.github.io/Blog-Hugo-1/tags/neo4j/</link><description>Recent content in Neo4j on Mark's Blog</description><generator>Hugo</generator><language>en</language><copyright>Cuisiting</copyright><lastBuildDate>Tue, 23 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://loongleex.github.io/Blog-Hugo-1/tags/neo4j/index.xml" rel="self" type="application/rss+xml"/><item><title>基于Neo4j构建源码可视化</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/%E5%9F%BA%E4%BA%8Eneo4j%E6%9E%84%E5%BB%BA%E6%BA%90%E7%A0%81%E5%8F%AF%E8%A7%86%E5%8C%96/</link><pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/%E5%9F%BA%E4%BA%8Eneo4j%E6%9E%84%E5%BB%BA%E6%BA%90%E7%A0%81%E5%8F%AF%E8%A7%86%E5%8C%96/</guid><description>&lt;h2 id="插入数据"&gt;插入数据&lt;/h2&gt;
+&lt;p&gt;&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/neo4j_insert_data.png"
+ alt="img" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/neo4j_insert_data_2.png"
+ alt="img" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id="查询所有节点"&gt;查询所有节点&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;MATCH (n)
+RETURN n
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="查询两个节点之间的直接间接关系和节点"&gt;查询两个节点之间的直接&amp;amp;间接关系和节点&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;MATCH path = (a)-[*]-(b)
+
+WHERE a.name = &amp;#39;your_nodo_name_1&amp;#39; AND
+
+b.name = &amp;#39;your_nodo_name_2&amp;#39;
+
+RETURN path
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>Neo4j</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/neo4j/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/neo4j/</guid><description>&lt;h1 id="neo4j-查看所有节点"&gt;neo4j 查看所有节点&lt;/h1&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;MATCH (n) 
+RETURN n
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id="neo4j-查看所有节点和关系"&gt;neo4j 查看所有节点和关系&lt;/h1&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;MATCH (n)-[r]-&amp;gt;(m)
+RETURN n, r, m
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>向量数据库 vs 图数据库</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/%E5%90%91%E9%87%8F%E6%95%B0%E6%8D%AE%E5%BA%93-vs-%E5%9B%BE%E6%95%B0%E6%8D%AE%E5%BA%93/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/%E5%90%91%E9%87%8F%E6%95%B0%E6%8D%AE%E5%BA%93-vs-%E5%9B%BE%E6%95%B0%E6%8D%AE%E5%BA%93/</guid><description>&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;维度&lt;/th&gt;
+ &lt;th&gt;图数据库&lt;/th&gt;
+ &lt;th&gt;向量数据库&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;解决方案&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;解决复杂关系和网络的分析问题&lt;/td&gt;
+ &lt;td&gt;解决高维数据的相似性搜索和检索问题&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;流行框架&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Neo4j, ArangoDB, OrientDB, Amazon Neptune&lt;/td&gt;
+ &lt;td&gt;Milvus, Faiss, Annoy, Pinecone&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;杀手级应用&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;社交网络分析, 路径查找, 网络拓扑, 推荐系统&lt;/td&gt;
+ &lt;td&gt;推荐系统, 图像识别, 语音识别, 自然语言处理&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;优点&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;强大的关系处理能力，优化的关系遍历性能&lt;/td&gt;
+ &lt;td&gt;高效的相似性搜索，适合处理大规模多维数据&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;缺点&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;相对较高的复杂性和学习曲线&lt;/td&gt;
+ &lt;td&gt;数据维度的增加可能导致性能下降（维度诅咒）&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;底层框架&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;基于Apache Lucene进行索引和存储的优化&lt;/td&gt;
+ &lt;td&gt;通常使用特定的数据结构如KD树、球树等进行数据索引和搜索&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;原理&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;利用图论概念，数据以节点和边的形式存在，边表示节点间的关系&lt;/td&gt;
+ &lt;td&gt;利用距离或相似度度量（如欧氏距离、余弦相似度）来索引和查询向量&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;用途&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;关系重的数据应用，如网络分析，关系数据库&lt;/td&gt;
+ &lt;td&gt;面向特征向量的搜索和分析应用，如图像和文本数据库&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;性能&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;高效的关系遍历和图算法性能&lt;/td&gt;
+ &lt;td&gt;高效的相似性搜索性能，尤其是在低至中等维度的数据集上&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;数据模型&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;节点和边构成的网络结构&lt;/td&gt;
+ &lt;td&gt;高维空间中的点集，每个点代表数据集中的一个项目&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;数据存储方式&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;节点和边直接存储在图结构中&lt;/td&gt;
+ &lt;td&gt;向量通常存储在特定的数据结构中以优化搜索性能&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;查询语言&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;使用专门的图查询语言如Cypher&lt;/td&gt;
+ &lt;td&gt;使用基于距离的查询参数，有时借助 SQL-like 查询语言&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;扩展性&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;良好的水平扩展性，尤其是在处理复杂查询和大数据集时&lt;/td&gt;
+ &lt;td&gt;依赖于数据结构和实现，高维数据集扩展可能具有挑战性&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;事务支持&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;通常提供良好的事务支持，保证数据的一致性和完整性&lt;/td&gt;
+ &lt;td&gt;事务支持因实现而异，一些系统可能主要优化读性能而非写性能&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;</description></item><item><title>基于 Neo4j 构建 Java 工程代码CallTree Graph</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/%E5%9F%BA%E4%BA%8E-neo4j-%E6%9E%84%E5%BB%BA-java-%E5%B7%A5%E7%A8%8B%E4%BB%A3%E7%A0%81calltree-graph/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/%E5%9F%BA%E4%BA%8E-neo4j-%E6%9E%84%E5%BB%BA-java-%E5%B7%A5%E7%A8%8B%E4%BB%A3%E7%A0%81calltree-graph/</guid><description>&lt;p&gt;&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/drawio/Neo4jCallTree.drawio.svg"
+ alt="d" 
+ loading="lazy"
+ width="50%"
+ height="100"
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;</description></item></channel></rss>

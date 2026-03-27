@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Script Filter on Mark's Blog</title><link>https://loongleex.github.io/Blog-Hugo-1/tags/script-filter/</link><description>Recent content in Script Filter on Mark's Blog</description><generator>Hugo</generator><language>en</language><copyright>Cuisiting</copyright><atom:link href="https://loongleex.github.io/Blog-Hugo-1/tags/script-filter/index.xml" rel="self" type="application/rss+xml"/><item><title>Alfred Script Filter</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/script_filter_k_link/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/script_filter_k_link/</guid><description>&lt;p&gt;keyword: Alfred, Script, Filter&lt;/p&gt;
+&lt;p&gt;在配置Alfred Script Filter 时,&lt;br&gt;
+若要打开的文件路径 为&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;/Users/your_user/Library/Application\ Support/xxxxxx
+&lt;/code&gt;&lt;/pre&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/Intellj_idea_debug_1.png" style="width:50%;"&gt;
+ 
+&lt;p&gt;这类中间带有空格的路径, Alfred 将不能正常打开&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;{
+		&amp;#34;uid&amp;#34;: &amp;#34;kconfig&amp;#34;,
+		&amp;#34;type&amp;#34;: &amp;#34;file&amp;#34;,
+		&amp;#34;title&amp;#34;: &amp;#34;k config&amp;#34;,
+		&amp;#34;subtitle&amp;#34;: &amp;#34;~/Desktop&amp;#34;,
+		&amp;#34;arg&amp;#34;: [&amp;#34;vscode&amp;#34;,
+				&amp;#34;/Users/your_user/toolchain/MyShell/Alfred/script_filter_k_link/info.plist&amp;#34;],
+		&amp;#34;autocomplete&amp;#34;: &amp;#34;Desktop&amp;#34;,
+		&amp;#34;icon&amp;#34;: {
+			&amp;#34;type&amp;#34;: &amp;#34;fileicon&amp;#34;,
+			&amp;#34;path&amp;#34;: &amp;#34;~/Desktop&amp;#34;
+		}
+	},
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;解决办法:&lt;br&gt;
+为 上述文件创建文件链接&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;格式：ln [原文件] [硬链接文件]
+&lt;/code&gt;&lt;/pre&gt;</description></item></channel></rss>

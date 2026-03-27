@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docker on Mark's Blog</title><link>https://loongleex.github.io/Blog-Hugo-1/tags/docker/</link><description>Recent content in Docker on Mark's Blog</description><generator>Hugo</generator><language>en</language><copyright>Cuisiting</copyright><lastBuildDate>Sat, 11 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://loongleex.github.io/Blog-Hugo-1/tags/docker/index.xml" rel="self" type="application/rss+xml"/><item><title>Docker</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/docker/</link><pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/docker/</guid><description>&lt;p&gt;keyword: Docker&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://docs.docker.com/desktop/faqs/linuxfaqs/#:~:text=What%20is%20the%20difference%20between,technology%20that%20powers%20Docker%20containers." target="_blank" rel="noopener"&gt;What is the difference between Docker Desktop for Linux and Docker Engine?&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://docs.docker.com/desktop/faqs/linuxfaqs/#:~:text=What%20is%20the%20difference%20between,technology%20that%20powers%20Docker%20containers." target="_blank" rel="noopener"&gt;Docker Desktop 和 Docker Engine 的区别&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://docs.docker.com/desktop/install/debian/" target="_blank" rel="noopener"&gt;Install docker for debian&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://docs.docker.com/engine/install/debian/#install-using-the-repository" target="_blank" rel="noopener"&gt;Install using the apt repository&lt;/a&gt;
+&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;# Add Docker&amp;#39;s official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl gnupg
+sudo install -m 0755 -d /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+sudo chmod a+r /etc/apt/keyrings/docker.gpg
+
+# Add the repository to Apt sources:
+echo \
+ &amp;#34;deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian \
+ $(. /etc/os-release &amp;amp;&amp;amp; echo &amp;#34;$VERSION_CODENAME&amp;#34;) stable&amp;#34; | \
+ sudo tee /etc/apt/sources.list.d/docker.list &amp;gt; /dev/null
+sudo apt-get update
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Install the Docker packages.&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>增长率 on Mark's Blog</title><link>https://loongleex.github.io/Blog-Hugo-1/tags/%E5%A2%9E%E9%95%BF%E7%8E%87/</link><description>Recent content in 增长率 on Mark's Blog</description><generator>Hugo</generator><language>en</language><copyright>Cuisiting</copyright><lastBuildDate>Sun, 10 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://loongleex.github.io/Blog-Hugo-1/tags/%E5%A2%9E%E9%95%BF%E7%8E%87/index.xml" rel="self" type="application/rss+xml"/><item><title>计算增长率</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/%E8%AE%A1%E7%AE%97%E5%A2%9E%E9%95%BF%E7%8E%87/</link><pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/%E8%AE%A1%E7%AE%97%E5%A2%9E%E9%95%BF%E7%8E%87/</guid><description>&lt;h1 id="javascript"&gt;JavaScript&lt;/h1&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;function calculateRatio(start, end, year) {
+	// 计算ratio
+	const ratio = Math.pow(end / start, 1 / year) - 1;
+	return ratio;
+}
+ 
+
+// 示例输入
+const start = 100; // 开始值
+const end = 200; // 结束值
+const year = 3; // 年份
+
+// 调用函数并输出结果
+console.log(calculateRatio(start, end, year));
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id="execl"&gt;Execl&lt;/h1&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;=((end/start)^(1/(endYear-startYear)))-1
+&lt;/code&gt;&lt;/pre&gt;</description></item></channel></rss>

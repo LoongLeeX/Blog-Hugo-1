@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Theme on Mark's Blog</title><link>https://loongleex.github.io/Blog-Hugo-1/tags/theme/</link><description>Recent content in Theme on Mark's Blog</description><generator>Hugo</generator><language>en</language><copyright>Cuisiting</copyright><lastBuildDate>Thu, 11 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://loongleex.github.io/Blog-Hugo-1/tags/theme/index.xml" rel="self" type="application/rss+xml"/><item><title>hugo-theme-learn 不支持 shortcode</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/hugo-theme-learn%E4%B8%8D%E6%94%AF%E6%8C%81shortcode/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/hugo-theme-learn%E4%B8%8D%E6%94%AF%E6%8C%81shortcode/</guid><description>&lt;h1 id="hugo-theme-learn-不支持-shortcode"&gt;hugo-theme-learn 不支持 shortcode&lt;/h1&gt;
+&lt;p&gt;按照 Hugo 官方关于自定义 shortcode 文档 &lt;a href="https://gohugo.io/templates/shortcode-templates/" target="_blank" rel="noopener"&gt;https://gohugo.io/templates/shortcode-templates/&lt;/a&gt;
+&lt;br&gt;
+设置如下 :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;在 &lt;code&gt;layouts/shortcodes&lt;/code&gt; 创建文件，并添加&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;&amp;lt;!-- rawhtml --&amp;gt;
+{{.Inner}}
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在Test.md 中添加 图片&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;
+ &lt;img src="https://github.com/cuisiting/cuisiting.github.io/raw/main/image.png" style="width:50%;"&gt;
+ 
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;结果：不能将 &lt;rawhtml&gt; 中的内容原样作为标签显示&lt;/p&gt;</description></item><item><title>Hugo Theme Colletion</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/hugotheme/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/hugotheme/</guid><description>&lt;p&gt;&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/hugo_theme_logo_1.png"
+ alt="image" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://themes.gohugo.io/tags/blog/" target="_blank" rel="noopener"&gt;https://themes.gohugo.io/tags/blog/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://themes.gohugo.io/themes/hugo-theme-tailwind/" target="_blank" rel="noopener"&gt;https://themes.gohugo.io/themes/hugo-theme-tailwind/&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://perplex.desider.at/blog/" target="_blank" rel="noopener"&gt;https://perplex.desider.at/blog/&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://neonmirrors.net/" target="_blank" rel="noopener"&gt;https://neonmirrors.net/&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://hbs.razonyang.com/v1/en/categories/" target="_blank" rel="noopener"&gt;https://hbs.razonyang.com/v1/en/categories/&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://themes.gohugo.io/themes/hugo-dead-simple/" target="_blank" rel="noopener"&gt;https://themes.gohugo.io/themes/hugo-dead-simple/&lt;/a&gt;
+&lt;/p&gt;</description></item></channel></rss>

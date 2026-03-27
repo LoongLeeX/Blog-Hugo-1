@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>免费托管网站 on Mark's Blog</title><link>https://loongleex.github.io/Blog-Hugo-1/tags/%E5%85%8D%E8%B4%B9%E6%89%98%E7%AE%A1%E7%BD%91%E7%AB%99/</link><description>Recent content in 免费托管网站 on Mark's Blog</description><generator>Hugo</generator><language>en</language><copyright>Cuisiting</copyright><lastBuildDate>Sun, 02 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://loongleex.github.io/Blog-Hugo-1/tags/%E5%85%8D%E8%B4%B9%E6%89%98%E7%AE%A1%E7%BD%91%E7%AB%99/index.xml" rel="self" type="application/rss+xml"/><item><title>程序员不能没有自己的网站，就像西方不能没有耶路撒冷</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%B8%8D%E8%83%BD%E6%B2%A1%E6%9C%89%E8%87%AA%E5%B7%B1%E7%9A%84%E7%BD%91%E7%AB%99%E5%B0%B1%E5%83%8F%E8%A5%BF%E6%96%B9%E4%B8%8D%E8%83%BD%E6%B2%A1%E6%9C%89%E8%80%B6%E8%B7%AF%E6%92%92%E5%86%B7/</link><pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%B8%8D%E8%83%BD%E6%B2%A1%E6%9C%89%E8%87%AA%E5%B7%B1%E7%9A%84%E7%BD%91%E7%AB%99%E5%B0%B1%E5%83%8F%E8%A5%BF%E6%96%B9%E4%B8%8D%E8%83%BD%E6%B2%A1%E6%9C%89%E8%80%B6%E8%B7%AF%E6%92%92%E5%86%B7/</guid><description>&lt;h1 id="买域名"&gt;买域名&lt;/h1&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;中文名&lt;/th&gt;
+ &lt;th&gt;英文名&lt;/th&gt;
+ &lt;th&gt;链接地址&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;主页&lt;/td&gt;
+ &lt;td&gt;Home Page&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://www.namesilo.com/?rid=03c3e55au" target="_blank" rel="noopener"&gt;https://www.namesilo.com/?rid=03c3e55au&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;域搜索页面&lt;/td&gt;
+ &lt;td&gt;Domain Search Page&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://www.namesilo.com/domain/search-domains?rid=03c3e55au" target="_blank" rel="noopener"&gt;https://www.namesilo.com/domain/search-domains?rid=03c3e55au&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;定价页&lt;/td&gt;
+ &lt;td&gt;Pricing Page&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://www.namesilo.com/pricing?rid=03c3e55au" target="_blank" rel="noopener"&gt;https://www.namesilo.com/pricing?rid=03c3e55au&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id="网站托管--部署"&gt;网站托管 &amp;amp; 部署&lt;/h1&gt;
+&lt;p&gt;托管: 一般是静态网站&lt;br&gt;
+部署：一般是具有后台计算的服务&lt;/p&gt;
+&lt;h1 id="cloudflare"&gt;Cloudflare&lt;/h1&gt;
+&lt;p&gt;不想流量被打爆，就上它&lt;/p&gt;
+&lt;p&gt;&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/cloudflare_config_1_add_NameServers.png"
+ alt="image" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/cloudflare_config_2_add_NameServers.png"
+ alt="image" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/cloudflare_config_3_github_page.png"
+ alt="image" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;</description></item></channel></rss>

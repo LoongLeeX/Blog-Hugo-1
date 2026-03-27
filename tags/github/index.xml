@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Github on Mark's Blog</title><link>https://loongleex.github.io/Blog-Hugo-1/tags/github/</link><description>Recent content in Github on Mark's Blog</description><generator>Hugo</generator><language>en</language><copyright>Cuisiting</copyright><lastBuildDate>Thu, 18 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://loongleex.github.io/Blog-Hugo-1/tags/github/index.xml" rel="self" type="application/rss+xml"/><item><title>Git</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/git-force-update-commit-author-info/</link><pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/git-force-update-commit-author-info/</guid><description>&lt;h1 id="force-update-specify-commit-id"&gt;Force update specify commit id&lt;/h1&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;
+git filter-repo --commit-callback &amp;#39;
+if commit.original_id == b&amp;#34;45131da3ef02aa324590ee29b4d7417686950297&amp;#34;:
+ commit.author_name = b&amp;#34;NewName&amp;#34;
+ commit.author_email = b&amp;#34;NewName@gmail.com&amp;#34;
+ commit.committer_name = b&amp;#34;NewName&amp;#34;
+ commit.committer_email = b&amp;#34;NewName@gmail.com&amp;#34;
+&amp;#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id="force-update-specify-author"&gt;Force update specify Author&lt;/h1&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;
+git filter-repo --force --commit-callback &amp;#39;
+old_author_name = &amp;#34;Old&amp;#34;
+old_author_email = &amp;#34;Old&amp;#34;
+new_author_name = &amp;#34;New&amp;#34;
+new_author_email = &amp;#34;New&amp;#34;
+
+if commit.author_name == old_author_name and commit.author_email == old_author_email:
+ commit.author_name = new_author_name
+ commit.author_email = new_author_email
+
+if commit.committer_name == old_author_name and commit.committer_email == old_author_email:
+ commit.committer_name = new_author_name
+ commit.committer_email = new_author_email
+&amp;#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;h1&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/logo_demo_1.png"
+ alt="" 
+ loading="lazy"
+ 
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;</description></item><item><title>Github</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/github/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/github/</guid><description>&lt;h1 id="github-most-popular-fork"&gt;Github most popular fork&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://gitpop2.vercel.app/" target="_blank" rel="noopener"&gt;https://gitpop2.vercel.app/&lt;/a&gt;
+&lt;br&gt;
+&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/github_most_poplular_1.png"
+ alt="img" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;h1 id="github-star-history-and-compare"&gt;Github Star History and Compare&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://star-history.com/#bumptech/glide&amp;amp;facebook/fresco&amp;amp;nostra13/Android-Universal-Image-Loader&amp;amp;square/picasso&amp;amp;coil-kt/coil&amp;amp;Date" target="_blank" rel="noopener"&gt;https://star-history.com/#bumptech/glide&amp;facebook/fresco&amp;nostra13/Android-Universal-Image-Loader&amp;square/picasso&amp;coil-kt/coil&amp;Date&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;Example: Android Image loader library&lt;br&gt;
+&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/github_start_history_compare_1.png"
+ alt="img" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;</description></item></channel></rss>

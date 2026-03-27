@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web分析 on Mark's Blog</title><link>https://loongleex.github.io/Blog-Hugo-1/tags/web%E5%88%86%E6%9E%90/</link><description>Recent content in Web分析 on Mark's Blog</description><generator>Hugo</generator><language>en</language><copyright>Cuisiting</copyright><lastBuildDate>Thu, 18 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://loongleex.github.io/Blog-Hugo-1/tags/web%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml"/><item><title>如何分析一个网页使用了Recat.js 还是 Vue.js</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/%E5%A6%82%E4%BD%95%E5%88%86%E6%9E%90%E4%B8%80%E4%B8%AA%E7%BD%91%E9%A1%B5%E4%BD%BF%E7%94%A8%E4%BA%86recat.js-%E8%BF%98%E6%98%AF-vue.js/</link><pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/%E5%A6%82%E4%BD%95%E5%88%86%E6%9E%90%E4%B8%80%E4%B8%AA%E7%BD%91%E9%A1%B5%E4%BD%BF%E7%94%A8%E4%BA%86recat.js-%E8%BF%98%E6%98%AF-vue.js/</guid><description>&lt;h2 id="如何分析一个网页使用了reactjs还是vuejs"&gt;如何分析一个网页使用了React.js还是Vue.js&lt;/h2&gt;
+&lt;h3 id="1-查看页面源码"&gt;1. 查看页面源码&lt;/h3&gt;
+&lt;p&gt;打开浏览器，右键点击页面并选择“查看页面源码”（View Page Source）或按 &lt;code&gt;Ctrl + U&lt;/code&gt;。在源码中查找以下关键字：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;React.js&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;查找&lt;code&gt;react&lt;/code&gt;或&lt;code&gt;ReactDOM&lt;/code&gt;关键字。&lt;/li&gt;
+&lt;li&gt;检查是否有以 &lt;code&gt;jsx&lt;/code&gt; 为扩展名的文件。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Vue.js&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;查找&lt;code&gt;vue&lt;/code&gt;关键字。&lt;/li&gt;
+&lt;li&gt;检查是否有以 &lt;code&gt;vue&lt;/code&gt; 为扩展名的文件。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="2-使用浏览器开发者工具"&gt;2. 使用浏览器开发者工具&lt;/h3&gt;
+&lt;p&gt;按 &lt;code&gt;F12&lt;/code&gt; 或右键点击页面并选择“检查”（Inspect），打开开发者工具。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;React.js&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在“元素”标签（Elements tab）中，查找是否有包含&lt;code&gt;data-reactroot&lt;/code&gt;属性的HTML元素。&lt;/li&gt;
+&lt;li&gt;在“控制台”标签（Console tab）中输入 &lt;code&gt;React&lt;/code&gt; 或 &lt;code&gt;ReactDOM&lt;/code&gt;，看是否返回一个对象而不是 &lt;code&gt;undefined&lt;/code&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Vue.js&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在“元素”标签中，查找是否有包含&lt;code&gt;data-v-&lt;/code&gt;属性的HTML元素。&lt;/li&gt;
+&lt;li&gt;在“控制台”标签中输入 &lt;code&gt;Vue&lt;/code&gt;，看是否返回一个对象而不是 &lt;code&gt;undefined&lt;/code&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="3-使用浏览器扩展"&gt;3. 使用浏览器扩展&lt;/h3&gt;
+&lt;p&gt;一些浏览器扩展可以帮助你识别网页是否使用了特定的框架：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;React Developer Tools&lt;/strong&gt;: 可以在页面上显示React组件结构。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vue.js devtools&lt;/strong&gt;: 可以在页面上显示Vue组件结构。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="4-使用在线工具"&gt;4. 使用在线工具&lt;/h3&gt;
+&lt;p&gt;一些在线工具可以分析网页并告诉你其使用的技术栈，例如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.wappalyzer.com/" target="_blank" rel="noopener"&gt;Wappalyzer&lt;/a&gt;
+: 可以识别网页使用的各种技术，包括React.js和Vue.js。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://builtwith.com/" target="_blank" rel="noopener"&gt;BuiltWith&lt;/a&gt;
+: 提供关于网页技术栈的详细信息。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;通过上述方法，你可以很容易地判断一个网页是使用了React.js还是Vue.js。&lt;/p&gt;
+&lt;p&gt;&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/logo_demo_1.png"
+ alt="" 
+ loading="lazy"
+ 
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tqdm on Mark's Blog</title><link>https://loongleex.github.io/Blog-Hugo-1/tags/tqdm/</link><description>Recent content in Tqdm on Mark's Blog</description><generator>Hugo</generator><language>en</language><copyright>Cuisiting</copyright><lastBuildDate>Sun, 07 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://loongleex.github.io/Blog-Hugo-1/tags/tqdm/index.xml" rel="self" type="application/rss+xml"/><item><title>Jupyter</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/jupyter/</link><pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/jupyter/</guid><description>&lt;h1 id="在jupter-中显示进度"&gt;在jupter 中显示进度&lt;/h1&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;import pandas as pd
+from bs4 import BeautifulSoup
+# 假设 parseHtml 已经定义
+
+# 在 Jupyter Notebook 中使用 tqdm 需要引入特定的模块
+from tqdm.notebook import tqdm
+
+# 假设 df 是你的 DataFrame
+for index, row in tqdm(df.iterrows(), total=df.shape[0]):
+ word = row[&amp;#34;Word&amp;#34;]
+ print(&amp;#34;--------------------&amp;#34;)
+ print(word)
+ for ele in parseHtml(word):
+ # 从 ele 中查找子元素
+ if ele.parent.parent.parent.find(&amp;#39;span&amp;#39;, class_=&amp;#39;pos dpos&amp;#39;) is not None:
+ print(&amp;#34;-------------------- &amp;#34;)
+ print(ele)
+ print(ele.parent.parent.parent.find(&amp;#39;span&amp;#39;, class_=&amp;#39;pos dpos&amp;#39;).text)
+ else:
+ print(&amp;#34;None found.&amp;#34;)
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id="iprogress-not-found"&gt;IProgress not found&lt;/h1&gt;
+&lt;h2 id="question"&gt;Question&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="answer"&gt;Answer&lt;/h2&gt;
+&lt;p&gt;确定当前jupter 的python 解释器&lt;/p&gt;</description></item></channel></rss>

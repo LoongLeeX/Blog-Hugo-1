@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ObsidianPlugin on Mark's Blog</title><link>https://loongleex.github.io/Blog-Hugo-1/tags/obsidianplugin/</link><description>Recent content in ObsidianPlugin on Mark's Blog</description><generator>Hugo</generator><language>en</language><copyright>Cuisiting</copyright><lastBuildDate>Thu, 11 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://loongleex.github.io/Blog-Hugo-1/tags/obsidianplugin/index.xml" rel="self" type="application/rss+xml"/><item><title>Obsidian dataview</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/obsidian-plugin---dataview/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/obsidian-plugin---dataview/</guid><description>&lt;p&gt;&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/obsidian_plugin_dataview_1.png"
+ alt="image" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code class="language-dataview" data-lang="dataview"&gt;LIST
+FROM #English 
+SORT file.name ASC
+&lt;/code&gt;&lt;/pre&gt;</description></item></channel></rss>

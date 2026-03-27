@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>可视化 on Mark's Blog</title><link>https://loongleex.github.io/Blog-Hugo-1/tags/%E5%8F%AF%E8%A7%86%E5%8C%96/</link><description>Recent content in 可视化 on Mark's Blog</description><generator>Hugo</generator><language>en</language><copyright>Cuisiting</copyright><lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://loongleex.github.io/Blog-Hugo-1/tags/%E5%8F%AF%E8%A7%86%E5%8C%96/index.xml" rel="self" type="application/rss+xml"/><item><title>经济数据</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/%E7%BB%8F%E6%B5%8E%E6%95%B0%E6%8D%AE/</link><pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/%E7%BB%8F%E6%B5%8E%E6%95%B0%E6%8D%AE/</guid><description>&lt;p&gt;![[economy_data_1.png]]&lt;br&gt;
+&lt;a href="https://sc.macromicro.me/" target="_blank" rel="noopener"&gt;https://sc.macromicro.me/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.tradingview.com/chart/iuFHyfXI/" target="_blank" rel="noopener"&gt;https://www.tradingview.com/chart/iuFHyfXI/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/data_1_trading_view.png"
+ alt="img" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;</description></item><item><title>基于Neo4j构建源码可视化</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/%E5%9F%BA%E4%BA%8Eneo4j%E6%9E%84%E5%BB%BA%E6%BA%90%E7%A0%81%E5%8F%AF%E8%A7%86%E5%8C%96/</link><pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/%E5%9F%BA%E4%BA%8Eneo4j%E6%9E%84%E5%BB%BA%E6%BA%90%E7%A0%81%E5%8F%AF%E8%A7%86%E5%8C%96/</guid><description>&lt;h2 id="插入数据"&gt;插入数据&lt;/h2&gt;
+&lt;p&gt;&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/neo4j_insert_data.png"
+ alt="img" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/neo4j_insert_data_2.png"
+ alt="img" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id="查询所有节点"&gt;查询所有节点&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;MATCH (n)
+RETURN n
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="查询两个节点之间的直接间接关系和节点"&gt;查询两个节点之间的直接&amp;amp;间接关系和节点&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;MATCH path = (a)-[*]-(b)
+
+WHERE a.name = &amp;#39;your_nodo_name_1&amp;#39; AND
+
+b.name = &amp;#39;your_nodo_name_2&amp;#39;
+
+RETURN path
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>awesome-visjs demo</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/awesome-visjs-demo/</link><pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/awesome-visjs-demo/</guid><description>&lt;p&gt;&lt;a href="https://github.com/visjs/awesome-visjs/blob/master/README.md" target="_blank" rel="noopener"&gt;https://github.com/visjs/awesome-visjs/blob/master/README.md&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://js.cytoscape.org/" target="_blank" rel="noopener"&gt;https://js.cytoscape.org/&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://js.cytoscape.org/demos/colajs-graph/" target="_blank" rel="noopener"&gt;https://js.cytoscape.org/demos/colajs-graph/&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.amcharts.com/demos/" target="_blank" rel="noopener"&gt;https://www.amcharts.com/demos/&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.sigmajs.org/" target="_blank" rel="noopener"&gt;https://www.sigmajs.org/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/logo_demo_1.png"
+ alt="" 
+ loading="lazy"
+ 
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;</description></item><item><title>Cytoscape.js</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/cytoscape.js/</link><pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/cytoscape.js/</guid><description>&lt;p&gt;&lt;a href="https://github.com/cytoscape/cytoscape.js" target="_blank" rel="noopener"&gt;cytoscape/cytoscape.js: Graph theory (network) library for visualisation and analysis (github.com)&lt;/a&gt;
+&lt;br&gt;
+&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/web_cytoscape_1.png"
+ alt="" 
+ loading="lazy"
+ 
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;h1&gt;&lt;/h1&gt;
+&lt;h1&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/logo_demo_1.png"
+ alt="" 
+ loading="lazy"
+ 
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;</description></item><item><title>Gradle Dependcy Graph 可视化</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/gradle-dependcy-graph-%E5%8F%AF%E8%A7%86%E5%8C%96/</link><pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/gradle-dependcy-graph-%E5%8F%AF%E8%A7%86%E5%8C%96/</guid><description>&lt;h1 id="buildgradle"&gt;build.gradle&lt;/h1&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;...
+ 
+apply from: &amp;#39;depend.gradle&amp;#39;
+
+...
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id="dependgradle"&gt;depend.gradle&lt;/h1&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;import groovy.json.JsonOutput 
+ 
+ 
+class DependencyCounter { 
+ static int count = 0 
+ static String getCount() { 
+ count++ 
+ return &amp;#34;$count&amp;#34;; 
+ } 
+} 
+// 定义任务来打印所有模块的依赖并保存为JSON文件 
+task printAllModuleDependencies { 
+ doLast { 
+ def rootResult = [:] 
+ rootResult[&amp;#34;name&amp;#34;] = DependencyCounter.getCount() 
+ rootResult[&amp;#34;desc&amp;#34;] = &amp;#34;root&amp;#34; 
+ def allProjectChildArr = [] 
+ rootResult[&amp;#34;children&amp;#34;] = allProjectChildArr 
+ allprojects { project -&amp;gt; 
+ var item = [:] 
+// item[&amp;#34;name&amp;#34;] = project.name 
+ item[&amp;#34;name&amp;#34;] = DependencyCounter.getCount() 
+ item[&amp;#34;desc&amp;#34;] = &amp;#34;printAllModuleDependencies:&amp;#34;+project.name 
+// item[&amp;#34;name&amp;#34;] = project.name 
+ item[&amp;#34;children&amp;#34;] = getOneProject(project) 
+ allProjectChildArr &amp;lt;&amp;lt; item 
+ } 
+ 
+ // 将依赖树写入JSON文件 
+ def jsonOutput = JsonOutput.toJson(rootResult) 
+// def outputFile = new File(&amp;#34;$buildDir/dependencies.json&amp;#34;) 
+ def outputFile = new File(&amp;#34;/Users/cocui/i100/github/EnglishProd/public/data/dependencies.json&amp;#34;) 
+ outputFile.text = JsonOutput.prettyPrint(jsonOutput) 
+ 
+ println &amp;#34;Dependencies saved to ${outputFile.absolutePath}&amp;#34; 
+ } 
+} 
+ 
+def getOneProject(project){ 
+ def allChildArr = [] 
+ project.configurations.each { config -&amp;gt; 
+ var childrenArr= getOneConfig(config) 
+ if (childrenArr != null &amp;amp;&amp;amp; childrenArr.size() != 0) { 
+ allChildArr &amp;lt;&amp;lt; [ 
+ &amp;#34;name&amp;#34;: DependencyCounter.getCount(), 
+ &amp;#34;desc&amp;#34;: &amp;#34;getOneProject:&amp;#34;+config.name, 
+ &amp;#34;children&amp;#34;: childrenArr 
+ ] 
+ } 
+ } 
+ return allChildArr 
+} 
+ 
+def getOneConfig(config){ 
+ def allChildArr = [] 
+ def dependencies = [] 
+ if (config.canBeResolved) { // 确保配置可解析 
+ if (config.name != &amp;#34;compileClasspath&amp;#34;) { 
+ return [] 
+ } 
+ def visited = new HashSet&amp;lt;String&amp;gt;() 
+ def currentConfigurations = [:] 
+ try { 
+ dependencies = collectDependencies(config.resolvedConfiguration.firstLevelModuleDependencies, visited, 0) 
+// projectDependencies[config.name] = dependencies 
+// println(&amp;#34;config.name: ${config.name}&amp;#34;) 
+//// currentConfigurations[&amp;#34;name&amp;#34;] = config.name 
+// currentConfigurations[&amp;#34;name&amp;#34;] = DependencyCounter.getCount() 
+// currentConfigurations[&amp;#34;desc&amp;#34;] = &amp;#34;getOneConfig:&amp;#34;+config.name 
+// currentConfigurations[&amp;#34;children&amp;#34;] = dependencies 
+ 
+ allChildArr &amp;lt;&amp;lt; currentConfigurations 
+ } catch (Exception e) { 
+// projectDependencies[config.name] = [ 
+// &amp;#34;error&amp;#34;: &amp;#34;Failed to resolve dependencies&amp;#34;, 
+// &amp;#34;message&amp;#34;: e.message 
+// ] 
+ } 
+ } 
+ return dependencies 
+} 
+// 递归函数来收集依赖项 
+def collectDependencies(Set&amp;lt;ResolvedDependency&amp;gt; dependencies, Set&amp;lt;String&amp;gt; visited, int depth) { 
+ def result = [] 
+ 
+ if (depth &amp;gt; 2) { 
+// result &amp;lt;&amp;lt; [&amp;#34;dependency&amp;#34;: &amp;#34;... (too deep, stopping recursion)&amp;#34;] 
+ return result 
+ } 
+ 
+ dependencies.each { dep -&amp;gt; 
+ def dependencyKey = &amp;#34;${dep.moduleGroup}:${dep.moduleName}:${dep.moduleVersion}&amp;#34; 
+ if (!visited.contains(dependencyKey)) { 
+ visited.add(dependencyKey) 
+ try { 
+ def children = collectDependencies(dep.children, visited, depth + 1) 
+ result &amp;lt;&amp;lt; [&amp;#34;name&amp;#34;:DependencyCounter.getCount(),&amp;#34;desc&amp;#34;: dependencyKey, &amp;#34;children&amp;#34;: children] 
+ } catch (Exception e) { 
+ result &amp;lt;&amp;lt; [&amp;#34;dependency&amp;#34;: dependencyKey, &amp;#34;error&amp;#34;: e.message] 
+ } 
+ } else { 
+// result &amp;lt;&amp;lt; [&amp;#34;dependency&amp;#34;: dependencyKey, &amp;#34;note&amp;#34;: &amp;#34;already visited&amp;#34;] 
+ } 
+ } 
+ 
+ return result 
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h1&gt;&lt;/h1&gt;
+&lt;h1&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/logo_demo_1.png"
+ alt="" 
+ loading="lazy"
+ 
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;</description></item><item><title>CallTree</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/calltree/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/calltree/</guid><description/></item><item><title>Github</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/github/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/github/</guid><description>&lt;h1 id="github-most-popular-fork"&gt;Github most popular fork&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://gitpop2.vercel.app/" target="_blank" rel="noopener"&gt;https://gitpop2.vercel.app/&lt;/a&gt;
+&lt;br&gt;
+&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/github_most_poplular_1.png"
+ alt="img" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;h1 id="github-star-history-and-compare"&gt;Github Star History and Compare&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://star-history.com/#bumptech/glide&amp;amp;facebook/fresco&amp;amp;nostra13/Android-Universal-Image-Loader&amp;amp;square/picasso&amp;amp;coil-kt/coil&amp;amp;Date" target="_blank" rel="noopener"&gt;https://star-history.com/#bumptech/glide&amp;facebook/fresco&amp;nostra13/Android-Universal-Image-Loader&amp;square/picasso&amp;coil-kt/coil&amp;Date&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;Example: Android Image loader library&lt;br&gt;
+&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/github_start_history_compare_1.png"
+ alt="img" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;</description></item><item><title>Vis.js</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/vis.js/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/vis.js/</guid><description/></item><item><title>WebChart</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/webchart/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/webchart/</guid><description>&lt;p&gt;&lt;a href="https://www.isqqw.com/" target="_blank" rel="noopener"&gt;isqqw&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/WebChart_1.png"
+ alt="img" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;</description></item></channel></rss>

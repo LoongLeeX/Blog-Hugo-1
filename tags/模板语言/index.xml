@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>模板语言 on Mark's Blog</title><link>https://loongleex.github.io/Blog-Hugo-1/tags/%E6%A8%A1%E6%9D%BF%E8%AF%AD%E8%A8%80/</link><description>Recent content in 模板语言 on Mark's Blog</description><generator>Hugo</generator><language>en</language><copyright>Cuisiting</copyright><lastBuildDate>Mon, 11 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://loongleex.github.io/Blog-Hugo-1/tags/%E6%A8%A1%E6%9D%BF%E8%AF%AD%E8%A8%80/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo 按文章中的时间排序</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/hugo-%E6%8C%89%E6%96%87%E7%AB%A0%E4%B8%AD%E7%9A%84%E6%97%B6%E9%97%B4%E6%8E%92%E5%BA%8F/</link><pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/hugo-%E6%8C%89%E6%96%87%E7%AB%A0%E4%B8%AD%E7%9A%84%E6%97%B6%E9%97%B4%E6%8E%92%E5%BA%8F/</guid><description>&lt;pre tabindex="0"&gt;&lt;code&gt;
++{{ $sortedPages := sort $pages &amp;#34;Params.date&amp;#34; &amp;#34;desc&amp;#34; }}
++
++
+ &amp;lt;div class=&amp;#34;flex flex-col w-full max-w-4xl lg:max-w-5xl relative&amp;#34;&amp;gt;
+ &amp;lt;div class=&amp;#34;flex flex-row&amp;#34;&amp;gt;
+ &amp;lt;section class=&amp;#34;flex flex-col w-full md:w-4/5&amp;#34;&amp;gt;
+- {{ range (.Paginate $pages).Pages }}
++ {{ range (.Paginate $sortedPages).Pages }}
+ &amp;lt;article class=&amp;#34;flex flex-col gap-y-3 p-6 mt-6 mx-2 md:mx-0 rounded-lg shadow-md bg-white dark:bg-gray-700&amp;#34;&amp;gt;
+ &amp;lt;div data-hveid=&amp;#34;CBEQAA&amp;#34;&amp;gt;
+ &amp;lt;div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;</description></item></channel></rss>

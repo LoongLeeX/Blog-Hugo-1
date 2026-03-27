@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Drawio on Mark's Blog</title><link>https://loongleex.github.io/Blog-Hugo-1/tags/drawio/</link><description>Recent content in Drawio on Mark's Blog</description><generator>Hugo</generator><language>en</language><copyright>Cuisiting</copyright><lastBuildDate>Mon, 04 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://loongleex.github.io/Blog-Hugo-1/tags/drawio/index.xml" rel="self" type="application/rss+xml"/><item><title>draw.io copy format text</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/draw.io-copy-format-text/</link><pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/draw.io-copy-format-text/</guid><description>&lt;p&gt;To maintain the formatting of JSON code snippets when copying from Visual Studio Code (VS Code) to draw.io, you can follow these steps.&lt;br&gt;
+The goal is to ensure that the indentation (spaces or tabs) is preserved when the text is pasted into a text box in draw.io.&lt;/p&gt;
+
+ 
+&lt;video controls width="250"&gt;
+ &lt;source src="https://loongleex.github.io/Blog-Hugo-1/bi/drawio_copy_format_text.mov" type="video/mp4" /&gt;
+&lt;/video&gt;</description></item><item><title>将draw.io 放在 markdown中</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/%E5%B0%86draw.io-%E6%94%BE%E5%9C%A8-markdown%E4%B8%AD/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/%E5%B0%86draw.io-%E6%94%BE%E5%9C%A8-markdown%E4%B8%AD/</guid><description>&lt;p&gt;将流程图或draw.io 文件已svg存储，在markdown 中像引用图片一样引用svg&lt;/p&gt;
+&lt;p&gt;markdown，html 可以渲染svg&lt;br&gt;
+draw.io 可以编辑 svg 文件&lt;br&gt;
+draw.io 可以将save as svg&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Youtube on Mark's Blog</title><link>https://loongleex.github.io/Blog-Hugo-1/tags/youtube/</link><description>Recent content in Youtube on Mark's Blog</description><generator>Hugo</generator><language>en</language><copyright>Cuisiting</copyright><lastBuildDate>Thu, 11 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://loongleex.github.io/Blog-Hugo-1/tags/youtube/index.xml" rel="self" type="application/rss+xml"/><item><title>Youtube DL</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/python-merge-concat-webm-and-mp3/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/python-merge-concat-webm-and-mp3/</guid><description>&lt;h1 id="download"&gt;Download&lt;/h1&gt;
+&lt;p&gt;for webm(without audio)&lt;br&gt;
+&lt;a href="https://ssyoutube.com/en771qN/" target="_blank" rel="noopener"&gt;SSYouTube: Online Video Downloader - SSYouTube.com&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;for audio&lt;br&gt;
+&lt;a href="https://yt5s.biz/en/" target="_blank" rel="noopener"&gt;Yt5s Video Youtube Downloader For Free&lt;/a&gt;
+&lt;/p&gt;
+&lt;h1 id="install"&gt;Install&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;安装ffmpeg&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;brew install ffmpeg
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start="2"&gt;
+&lt;li&gt;安装 ffmpeg 的python api&lt;br&gt;
+注意是 &lt;code&gt;pip install ffmpeg-python&lt;/code&gt;&lt;br&gt;
+instead of &lt;code&gt;pip install ffmpeg&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;pip install ffmpeg-python
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;如果已经安装了 module 为 ffmpeg 的api，则先uninstall&lt;br&gt;
+注意此处区分 &lt;code&gt;brew install&lt;/code&gt; 和 &lt;code&gt;pip install&lt;/code&gt; 的区别&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;
+pip uninstall ffmpeg
+pip uninstall ffmpeg-python
+
+pip install ffmpeg-python
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;a href="https://github.com/kkroening/ffmpeg-python/issues/174" target="_blank" rel="noopener"&gt;AttributeError: module &amp;lsquo;ffmpeg&amp;rsquo; has no attribute &amp;lsquo;input&amp;rsquo; · Issue #174 · kkroening/ffmpeg-python (github.com)&lt;/a&gt;
+&lt;/p&gt;</description></item></channel></rss>

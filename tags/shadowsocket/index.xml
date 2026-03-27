@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Shadowsocket on Mark's Blog</title><link>https://loongleex.github.io/Blog-Hugo-1/tags/shadowsocket/</link><description>Recent content in Shadowsocket on Mark's Blog</description><generator>Hugo</generator><language>en</language><copyright>Cuisiting</copyright><lastBuildDate>Fri, 10 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://loongleex.github.io/Blog-Hugo-1/tags/shadowsocket/index.xml" rel="self" type="application/rss+xml"/><item><title>Aws Shadowsocket</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/awsshadowsocket/</link><pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/awsshadowsocket/</guid><description>&lt;p&gt;keyword: AWS instance&lt;/p&gt;
+&lt;p&gt;&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/aws_instance_name.png"
+ alt="image" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;创建key 用于 ssh 鉴权登陆&lt;/p&gt;
+&lt;p&gt;&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/aws_instance_create_key.png"
+ alt="image" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;创建成功后，查看instance Details ip , ssh 登陆&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;chmod 400 [your pem path]
+ssh -i [your pem path] admin@your_ip
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;安装 &lt;a href="https://github.com/shadowsocks/shadowsocks-libev/blob/master/docker/alpine/README.md" target="_blank" rel="noopener"&gt;shadowsocket docker&lt;/a&gt;
+&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;docker pull shadowsocks/shadowsocks-libev
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;指定 shadowsocks container 的端口，检查你的云服务是否开启了该端口&lt;br&gt;
+启动 docker instance&lt;br&gt;
+检查你的云服务是否开启了该端口&lt;/p&gt;
+&lt;p&gt;&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/aws_instance_check_port.png"
+ alt="image" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;ps=&amp;lt;你的密码&amp;gt;
+port=&amp;lt;你的端口&amp;gt;
+
+docker run -e PASSWORD=$ps -p $port:8388 -p $port:8388/udp -d --restart always shadowsocks/shadowsocks-libev
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/aws_change_port_1.png"
+ alt="image" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/aws_change_port_2.png"
+ alt="image" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;</description></item></channel></rss>

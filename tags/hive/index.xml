@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hive on Mark's Blog</title><link>https://loongleex.github.io/Blog-Hugo-1/tags/hive/</link><description>Recent content in Hive on Mark's Blog</description><generator>Hugo</generator><language>en</language><copyright>Cuisiting</copyright><lastBuildDate>Tue, 11 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://loongleex.github.io/Blog-Hugo-1/tags/hive/index.xml" rel="self" type="application/rss+xml"/><item><title>Hadoop Architecture</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/hadooparchitecture/</link><pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/hadooparchitecture/</guid><description>&lt;p&gt;keyword: Hadoop, big data, AI, Architecture&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.cloudduggu.com/hadoop/architecture/" target="_blank" rel="noopener"&gt;Hadoop Architecture&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;Apache Hadoop has the following three layers of Architecture.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Map-Reduce&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;YARN&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;HDFS&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/hadoop_architecture.png"
+ alt="image" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Map-Reduce&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/hadoop_architecture_map_reduce.png"
+ alt="image" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt;
+&lt;p&gt;YARN&lt;br&gt;
+&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/hadoop_architecture_yarn.png"
+ alt="image" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;HDFS&lt;br&gt;
+&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/hadoop_architecture_hdfs_1.png"
+ alt="image" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/hadoop_architecture_hdfs_2.png"
+ alt="image" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/hadoop_architecture_hdfs_3.png"
+ alt="image" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item></channel></rss>

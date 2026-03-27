@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Spark on Mark's Blog</title><link>https://loongleex.github.io/Blog-Hugo-1/tags/spark/</link><description>Recent content in Spark on Mark's Blog</description><generator>Hugo</generator><language>en</language><copyright>Cuisiting</copyright><atom:link href="https://loongleex.github.io/Blog-Hugo-1/tags/spark/index.xml" rel="self" type="application/rss+xml"/><item><title>Spark Architecture</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/spark/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/spark/</guid><description>&lt;p&gt;keyword: Spark, big date ,AI, Architecture&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://avinash333.com/spark-architecture/" target="_blank" rel="noopener"&gt;Spark Architecture&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/h_s_avinash333.png"
+ alt="image" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;</description></item><item><title>Spark&amp;Hadoop</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/sparkhadoop/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/sparkhadoop/</guid><description>&lt;p&gt;keyword: Hadopp, Spark, big data, AI, Architecture&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://developer.hpe.com/blog/performance-tuning-of-an-apache-kafkaspark-streaming-system-telecom-case/" target="_blank" rel="noopener"&gt;Case Study 1&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/h_s_telecom_case.png"
+ alt="image" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://avinash333.com/spark-architecture/" target="_blank" rel="noopener"&gt;Case Study 2&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/h_s_avinash333.png"
+ alt="image" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.databricks.com/blog/2016/06/22/apache-spark-key-terms-explained.html" target="_blank" rel="noopener"&gt;Case Study 3&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/h_s_spark_key_terms.png"
+ alt="image" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://medium.com/@dogukannulu/data-engineering-end-to-end-project-1-7a7be2a3671" target="_blank" rel="noopener"&gt;Case Study 4&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;div class="not-prose"&gt;
+&lt;figure&gt;
+ &lt;img src="https://loongleex.github.io/Blog-Hugo-1/bi/h_s_data_engineering_end_end.png"
+ alt="image" 
+ loading="lazy"
+ width="50%"
+ 
+ &gt;
+ &lt;/figure&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id="hadoop-vs-spark-使用场景"&gt;Hadoop vs Spark: 使用场景&lt;/h2&gt;
+&lt;h3 id="hadoop-使用场景"&gt;Hadoop 使用场景&lt;/h3&gt;
+&lt;p&gt;Hadoop 适合以下场景：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;大规模数据存储和处理&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;当需要处理 PB 级别的数据时，Hadoop 的 HDFS 提供了一个可靠的存储解决方案。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;高吞吐量的批处理作业&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;对于需要高吞吐量而不是低延迟的长时间运行的批处理作业，Hadoop 是理想的选择。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;成本效益的解决方案&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;对于预算有限的项目，Hadoop 的开源特性使其成为一种成本效益高的选择。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;兼容性和成熟的生态系统&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Hadoop 已经成熟，拥有一个庞大的生态系统，适用于各种数据处理需求。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="spark-使用场景"&gt;Spark 使用场景&lt;/h3&gt;
+&lt;p&gt;Spark 适合以下场景：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;快速数据处理和实时分析&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;当需要快速处理数据或进行实时数据分析时，Spark 的内存计算功能提供了显著的速度优势。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;迭代算法和机器学习&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;对于需要迭代计算的机器学习算法，Spark 的内存计算比 Hadoop 更高效。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多种数据处理格式&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;如果需要支持多种数据处理方式（批处理、流处理、交互式查询、机器学习），Spark 提供了一站式解决方案。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;高级分析&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Spark 支持 SQL 查询、流处理和复杂的分析，这些在 Hadoop MapReduce 中不那么容易实现。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;根据项目需求和资源情况，可以选择适合的框架。在某些复杂的项目中，Hadoop 和 Spark 可以并行使用，以充分利用两者的优势。&lt;/p&gt;</description></item></channel></rss>
