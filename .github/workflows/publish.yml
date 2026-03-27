@@ -29,3 +29,4 @@ jobs:
           external_repository: LoongLeeX/LoongLeeX.github.io
           publish_dir: ./public
           publish_branch: main
+
