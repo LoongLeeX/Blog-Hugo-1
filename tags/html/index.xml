@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Html on Mark's Blog</title><link>https://loongleex.github.io/Blog-Hugo-1/tags/html/</link><description>Recent content in Html on Mark's Blog</description><generator>Hugo</generator><language>en</language><copyright>Cuisiting</copyright><lastBuildDate>Thu, 11 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://loongleex.github.io/Blog-Hugo-1/tags/html/index.xml" rel="self" type="application/rss+xml"/><item><title>python Html parse</title><link>https://loongleex.github.io/Blog-Hugo-1/posts/html-parse-lxml.html/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><guid>https://loongleex.github.io/Blog-Hugo-1/posts/html-parse-lxml.html/</guid><description>&lt;p&gt;若从浏览器获得的xpath 为&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;//*[@id=&amp;#34;contenttable&amp;#34;]/tbody/tr/td/table/tbody/tr/td[2]/h3
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;则 lxml_tree.xpath 的 参数应为：&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;浏览器 : //*[@id=&amp;#34;contenttable&amp;#34;]/tbody/tr/td/table/tbody/tr/td[2]/h3
-lxml_tree.xpath : //*[@id=&amp;#34;contenttable&amp;#34;]///tr/td/table///tr/td[2]/h3
-&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex="0"&gt;&lt;code&gt;from lxml import html
-
-xpath_content = lxml_tree.xpath(&amp;#39;//*[@id=&amp;#34;contenttable&amp;#34;]//tr/td/table//tr/td[2]/h3&amp;#39;)
-&lt;/code&gt;&lt;/pre&gt;</description></item></channel></rss>
