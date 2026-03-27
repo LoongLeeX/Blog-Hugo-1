@@ -17,17 +17,6 @@ staticDir = ['static']
 [outputs]
   home = ["HTML"]
 
-[mediaTypes]
-  [mediaTypes."text/plain"]
-    suffixes = ["CNAME"]
-
-[outputFormats.CNAME]
-  baseName = "CNAME"
-  isPlainText = true
-  mediaType = "text/plain"
-  permalinkable = false
-  rel = "canonical"
-  
 [markup]
   _merge = "deep"
   [markup.goldmark]
