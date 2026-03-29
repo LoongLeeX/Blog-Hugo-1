@@ -11,6 +11,6 @@ echo "当前 shell 脚本所在目录: $SCRIPT_DIR"
 
 cd $SCRIPT_DIR
 
-hugo server -disableFastRender
+hugo server -disableFastRender --port 10004
 
 
